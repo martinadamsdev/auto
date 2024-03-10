@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 const {Content, Sider, Footer } = Layout;
 
 interface AppLayoutProps {
-    children?: ReactNode;
+    children: ReactNode;
 }
 
 export const AppLayout: FC<AppLayoutProps> = ({ children }) => {
